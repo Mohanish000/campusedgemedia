@@ -13,7 +13,7 @@ import zenithLogo from '../assets/a_Brands_logo/zenith.png';
 import allenLogo from '../assets/a_Brands_logo/allen.png';
 import motionLogo from '../assets/a_Brands_logo/motion.png';
 import rishihoodLogo from '../assets/a_Brands_logo/rishihood.png';
-import vedamLogo from '../assets/a_Brands_logo/vedam.png';
+import vedamLogo from '../assets/a_Brands_logo/Vedam.png';
 
 export const universityLogos = {
   newton: newtonLogo,
