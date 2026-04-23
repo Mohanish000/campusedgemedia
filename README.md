@@ -171,12 +171,5 @@ git push origin main
 
 © 2026 CampusEdge Media. All rights reserved.
 
-## 📞 Contact
-
-- Phone: +91 7060306195
-- Email: hello@campusedge.in
-- Location: New Delhi, India
-
----
 
 **Built with React + Vite | Deployed on Vercel | 🚀 Production Ready**
