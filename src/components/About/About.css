@@ -1,0 +1,236 @@
+.about {
+  padding: 6rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  margin: 0 0 1rem;
+  font-size: 2.5rem;
+  color: var(--color-text-primary);
+}
+
+.section-header p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.about-content p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.differentiators {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.diff-pill {
+  padding: 0.65rem 1.25rem;
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.1), rgba(232, 133, 122, 0.08));
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.9rem;
+  color: var(--color-blue-primary);
+  font-weight: 600;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .achievements-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.achievement-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.75rem;
+}
+
+.achievement-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(201, 169, 110, 0.15);
+}
+
+.achievement-icon {
+  color: var(--color-blue-primary);
+}
+
+.achievement-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+}
+
+.achievement-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+/* Team Section */
+.team-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.03), rgba(232, 133, 122, 0.02));
+}
+
+.founder-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(20, 20, 22, 0.5), rgba(20, 20, 22, 0.3));
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+}
+
+.founder-photo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.founder-large-photo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 16px;
+  border: 3px solid var(--color-blue-primary);
+  box-shadow: 0 20px 60px rgba(201, 169, 110, 0.25);
+  object-fit: cover;
+}
+
+.founder-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.founder-details h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--color-text-primary);
+}
+
+.founder-role {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--color-blue-primary);
+  font-weight: 600;
+}
+
+.founder-message {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.08), rgba(232, 133, 122, 0.06));
+  border-left: 3px solid var(--color-blue-primary);
+  border-radius: 8px;
+}
+
+.founder-highlights {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, var(--color-blue-primary), rgba(201, 169, 110, 0.8));
+  border-radius: var(--radius-full);
+}
+
+.highlight-text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--color-bg-primary);
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .founder-card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .founder-large-photo {
+    max-width: 300px;
+  }
+
+  .founder-details h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 4rem 0;
+  }
+
+  .team-section {
+    padding: 4rem 0;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .founder-card {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .founder-large-photo {
+    max-width: 100%;
+    max-height: 400px;
+  }
+
+  .founder-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .differentiators {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .diff-pill {
+    width: 100%;
+    text-align: center;
+  }
+}

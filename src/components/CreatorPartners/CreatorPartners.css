@@ -1,0 +1,193 @@
+.creator-partners {
+  padding: 6rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  margin-bottom: 0.75rem;
+}
+
+.section-header p {
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.creators-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .creators-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .creators-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.creator-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.exclusive-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: linear-gradient(135deg, #C9A96E, #E8857A);
+  color: #0C0C0E;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  box-shadow: 0 4px 15px rgba(201, 169, 110, 0.3);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.exclusive-badge svg {
+  width: 14px;
+  height: 14px;
+  fill: #0C0C0E;
+}
+
+.creator-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(201, 169, 110, 0.15);
+}
+
+.creator-avatar {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #C9A96E, #E8857A);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #0C0C0E;
+  overflow: hidden;
+  border: 3px solid rgba(201, 169, 110, 0.3);
+}
+
+.creator-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.creator-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.youtube-btn {
+  background: rgba(255, 0, 0, 0.1);
+  color: #FF0000;
+  border-color: #FF0000;
+}
+
+.youtube-btn:hover {
+  background: #FF0000;
+  color: white;
+  transform: scale(1.1);
+}
+
+.instagram-btn {
+  background: linear-gradient(135deg, rgba(233, 30, 99, 0.1), rgba(233, 126, 30, 0.1));
+  color: #E91E63;
+  border-color: #E91E63;
+}
+
+.instagram-btn:hover {
+  background: linear-gradient(135deg, #E91E63, #E97E1E);
+  color: white;
+  transform: scale(1.1);
+}
+
+.followers-section {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  width: 100%;
+  justify-content: center;
+}
+
+.follower-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 80px;
+}
+
+.follower-stat .label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.follower-stat .count {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-blue-primary);
+}
+
+.divider {
+  width: 1px;
+  height: 30px;
+  background: var(--color-border);
+}
+
+.description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
