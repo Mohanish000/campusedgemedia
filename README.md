@@ -1,5 +1,7 @@
 # 🚀 CampusEdge Media - Campus Marketing Website
 
+🌐 **Live Website**: [https://campusedgemedia.com/](https://campusedgemedia.com/)
+
 > **India's premier campus marketing agency** bridging brands, creators, and 37M+ college students.
 
 ## ⚡ Quick Start
