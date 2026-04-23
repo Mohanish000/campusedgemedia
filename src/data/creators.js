@@ -1,6 +1,6 @@
 import SankalpJauhari from '../assets/sankalp jauhari.jpg';
 import AjaysinghImg from '../assets/ajay singh.jpg';
-import AryanBhaiya from '../assets/Aryan-Bhaiya.png';
+import AryanBhaiya from '../assets/Aryan-bhaiya.png';
 import HarshitaSingh from '../assets/harshita singh.png';
 import JazbaatiSaxena from '../assets/Jazbaati Saxena.png';
 import RankboostShubham from '../assets/Shubham Kumar NIT Kurukshetra.png';
