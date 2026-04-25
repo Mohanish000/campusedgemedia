@@ -8,6 +8,7 @@ import VisionRealm from '../assets/VisionRealm.png';
 import EknoorSingh from '../assets/eknoor singh.png';
 import JokingVlogs from '../assets/Joking vlogs.png';
 import ZackVlogs from '../assets/Zack.png';
+import Akuls from '../assets/Akuls.png';
 
 export const creators = [
   {
@@ -50,11 +51,11 @@ export const creators = [
   {
     id: 4,
     name: "Harshita Singh",
-    followers: "8.6K",
+    followers: "27.8K",
     subscribers: "131K",
     platform: "Instagram",
     youtube: "https://www.youtube.com/@HarshitaSingh.iitian",
-    instagram: "https://www.instagram.com/examhyphen",
+    instagram: "https://www.instagram.com/harshiita_singhh_",
     description: "Chemistry Concepts & JEE Tips",
     photo: HarshitaSingh,
     exclusive: true
@@ -126,5 +127,16 @@ export const creators = [
     instagram: "",
     description: "",
     photo: ZackVlogs
+  },
+  {
+    id: 11,
+    name: "Akuls Journal",
+    followers: "2k",
+    subscribers: "15K",
+    platform: "YouTube",
+    youtube: "https://www.youtube.com/@geekygrind",
+    instagram: "https://www.instagram.com/akulsofficiall/",
+    description: "",
+    photo: Akuls
   },
 ];
