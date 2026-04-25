@@ -126,7 +126,8 @@ export const creators = [
     youtube: "https://youtube.com/@zackvlogs24?si=9hjjPKnKjj8rOnSo",
     instagram: "",
     description: "",
-    photo: ZackVlogs
+    photo: ZackVlogs ,
+    exclusive: true
   },
   {
     id: 11,
@@ -137,6 +138,7 @@ export const creators = [
     youtube: "https://www.youtube.com/@geekygrind",
     instagram: "https://www.instagram.com/akulsofficiall/",
     description: "",
-    photo: Akuls
+    photo: Akuls ,
+    exclusive: true
   },
 ];
